@@ -8,8 +8,7 @@
 	"customizations": {
 		"vscode": {
 			"extensions": [
-				"eamodio.gitlens",
-				"ms-vscode.cpptools-extension-pack"
+				"eamodio.gitlens"
 			]
 		}
 	}
