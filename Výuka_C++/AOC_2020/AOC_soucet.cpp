@@ -34,13 +34,17 @@ int main()
 	{
 		for (int j = i + 1; j < cisla.size(); j++)
 		{
-			if (cisla[i] + cisla[j] == 2020)
+			for(int k = j + 1; k < cisla.size(); k++)
 			{
-				cout << "Prvni cast: " << endl;
-				cout << cisla[i] << " + " << cisla[j] << " = 2020" << endl;
-				result = cisla[i] * cisla[j];
-				cout << "Vysledek je: " << result;
+				if (cisla[i] + cisla[j] == 2020)
+				{
+					cout << "Prvni cast: " << endl;
+					cout << cisla[i] << " + " << cisla[j] << " = 2020" << endl;
+					result = cisla[i] * cisla[j];
+					cout << "Vysledek je: " << result;
+				}
 			}
+
 		}
 	}
 
