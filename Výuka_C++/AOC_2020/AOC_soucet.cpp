@@ -32,16 +32,16 @@ int main()
 
 	for (int i = 0; i < cisla.size(); i++)
 	{
-		for (int j = i + 1; j < cisla.size(); j++)
+		for (int j = 0; j < cisla.size(); j++)
 		{
-			for(int k = j + 1; k < cisla.size(); k++)
+			for(int k = 0; k < cisla.size(); k++)
 			{
-				if (cisla[i] + cisla[j] == 2020)
+				if (cisla[i] + cisla[j] + cisla[k] == 2020)
 				{
 					cout << "Prvni cast: " << endl;
-					cout << cisla[i] << " + " << cisla[j] << " = 2020" << endl;
-					result = cisla[i] * cisla[j];
-					cout << "Vysledek je: " << result;
+					cout << cisla[i] << " + " << cisla[j] << " + " << cisla[k] << " = 2020" << endl;
+					//result = cisla[i] * cisla[j];
+					//cout << "Vysledek je: " << result;
 				}
 			}
 
