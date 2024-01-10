@@ -15,8 +15,8 @@ int main()
     cout << a << " " << b;
 */
 
-    int a = 2;
-    int b = 1;
+    int a = 1;
+    int b = 0;
 
     int* _a = &a;
     int* _b = &b;
