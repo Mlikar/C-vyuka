@@ -2,6 +2,13 @@
 
 using namespace std;
 
+void prohozeni(int* a, int* b)
+{
+    int promena = *a;
+    *a = *b;
+    *b = promena;
+}
+
 int main()
 {
 /*    int a = 2;
@@ -13,7 +20,7 @@ int main()
     b = value;
 
     cout << a << " " << b;
-*/
+
 
     int a = 1;
     int b = 0;
@@ -26,5 +33,11 @@ int main()
     *_b = value;
 
     cout << a << " " << b;
+*/
+int a, b;
 
+int* c = &a;
+int* d = &b;
+
+prohozeni(c, d);
 }
